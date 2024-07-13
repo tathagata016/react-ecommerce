@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right top, #f3f2f2, #feefec, #ffede1, #ffeed4, #fff1c8);
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #454545;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+.product img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  .product-cart{
+    margin-top:-35px;
+     color:white
+  }
+ 
+
+  .button {
+    padding-top: 20px;
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.button label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.button button {
+    background-color: #646464;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: #4e4e4e;
+}
+
+.button button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(248, 248, 248);
+}
+
+.button button:first-of-type {
+    margin-left: 0;
+}
+
+.button button:last-of-type {
+    margin-right: 0;
+}
+
+.label{
+    font-size: 60px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .search-bar input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  

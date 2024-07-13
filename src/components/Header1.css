@@ -1,0 +1,54 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-color: #565656;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-right: 12%;
+    font-size: larger;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+  }
+
+  .fistName {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    float: right;
+  } 
+
+  li{
+
+    font-size: larger;
+    margin-top: 35px;
+  }
+  
+  .BsCart {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .linking{
+    color: white;
+  }
+  
+  .linking:hover{
+    color: rgb(127, 209, 250);
+    text-decoration: none;
+  }
+
