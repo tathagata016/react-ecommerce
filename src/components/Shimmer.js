@@ -4,6 +4,7 @@ function Shimmer() {
   return (
     <div className='shimmer-card'>
     <div className='shimmer-pro'></div>
+    <></>
     </div>
   )
 }
