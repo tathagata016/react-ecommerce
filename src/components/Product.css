@@ -18,6 +18,7 @@ body{
     text-align: center;
     flex-wrap: wrap;
     color: #ffffff;
+    height: 400px;
 }
 
 .product img {
@@ -111,5 +112,9 @@ body{
   
   .search-bar button:hover {
     background-color: #0056b3;
+  }
+
+  .product-main{
+    height: 80%;
   }
   

@@ -63,11 +63,13 @@ function Product() {
         <div className='product-list'>
           {filteredProducts.map((item) => (
             <div key={item.id} className='product'>
+            <div className='product-main'>
               <Link to={`/${item.id}`}>
                 <img src={item.image} alt={item.title} width='100' />
               </Link>
               <p>{item.title.length > 13 ? item.title.slice(0, 25) : item.title}</p>
               <p>${item.price}</p>
+              </div>
               <Button variant='light' onClick={() => addProduct(item)}>Add to cart </Button>
             </div>
           ))}

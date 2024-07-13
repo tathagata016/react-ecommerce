@@ -37,7 +37,6 @@ const Cart = () => {
       {cart.length === 0 && <p className='para'>Your cart is empty</p>}
       <div className='displayCart'>   
       <ul>
-          
         {Object.values(groupedCartItems).map((item, index) => (
           <li  key={index}>
           <div className={styles.listItem}>
