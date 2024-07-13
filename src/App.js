@@ -8,6 +8,7 @@ import LogIn from './components/LogIn';
 import SignUp from './components/SignUp';
 import SignOut from './components/SignOut';
 import ProductDetails from './components/ProductDetails';
+import Header1 from './components/Header1';
 
 
 
